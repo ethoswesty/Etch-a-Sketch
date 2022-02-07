@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
     <script src="myscript.js" defer></script>
     <title>Etch-a-Sketch</title>
 </head>
@@ -14,8 +17,8 @@
     </div>
     <div class="left">
         <h1>Draw what you please!</h1>
-        <label for="quantity">Type a value for grid size</label>
-        <input type="number" id="quantity" name="quantity"/>
+        <label for="quantity">Type a value for your grid size</label>
+        <input type="number" id="quantity" name="quantity" min="0"/>
         <button class="reset">RESET</button>
     </div>
 </body>
